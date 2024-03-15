@@ -1,9 +1,51 @@
 /* Add styling for your page here */
 
 .App {
+  background:rgb(115, 78, 90);
+  display: flex;
+}
 
+.PageTitle {
+  padding-left: 3rem;
+  padding-top: 3rem;
+  margin: 0px;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xxx-large;
+  width: auto;
+}
+
+.BakeryListSection {
+  width: 65%;
 }
 
 .BakeryItem {
-  
+  margin: 1.55rem;
+  width: 300px;
+  justify-content: center;
+  background-color: bisque;
+  border-radius: 2rem;
+}
+
+.ItemPhoto {
+  width: 300px;
+  border-radius: 2rem;
+}
+
+.ItemPart {
+  margin: 1rem;
+}
+
+.BakeryList {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.CartSection {
+  padding: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
 }
